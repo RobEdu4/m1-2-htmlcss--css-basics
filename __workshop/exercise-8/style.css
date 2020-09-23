@@ -1,15 +1,28 @@
 img {
-  max-width: 300px;
+  max-width: 200px;
 }
 
 .img1 {
+  visibility: visible;
 }
 
 .img2 {
+  display: none;
+  visibility: collapse;
 }
 
 .img3 {
+  display: none;
+  visibility: collapse;
 }
 
 .img4 {
+  visibility: visible;
+  max-height: 240px;
+  margin-top: 60px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
 }

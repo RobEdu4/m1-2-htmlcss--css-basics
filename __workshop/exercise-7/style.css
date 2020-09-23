@@ -16,4 +16,67 @@ li {
   vertical-align: baseline;
 }
 
-/* ADD CSS BELOW */
+
+
+h1,h2,h3{
+  font-family:  "Bangers", cursive;
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2%;
+}
+
+h2{
+  font-size: 2rem;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+h3{
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+img{
+  max-height: 130px;
+  padding: 5px;
+}
+
+.cuteSection{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+}
+
+.cats{
+  position: absolute;
+  height: 200px;
+  background: #eaeaee;
+  margin: 10px 10px 10px 10px;
+  border: dashed 2px gray;
+  padding: 20px;
+}
+
+.dogs{
+    position: absolute;
+    height: 200px;
+    background: #eaeaee;
+    margin: 10px 10px 10px 10px;
+    border: dashed 2px gray;
+    padding: 20px;
+    left: 550px;
+}
+
+.alpaca{
+    position: absolute;
+    height: 200px;
+    background: #eaeaee;
+    margin: 10px 10px 10px 10px;
+    border: dashed 2px gray;
+    padding: 20px;
+    left: 1100px;
+}
+

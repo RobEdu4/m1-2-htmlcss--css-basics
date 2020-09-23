@@ -1,15 +1,26 @@
 img {
-  max-width: 300px;
+  max-width: 250px;
 }
 
 .img1 {
+  position: relative;
 }
 
 .img2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
 }
 
 .img3 {
+  position: fixed;
+  right: 42%;
+  top: 35%;
 }
 
 .img4 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
