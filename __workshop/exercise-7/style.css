@@ -31,7 +31,7 @@ h1{
 h2{
   font-size: 2rem;
   margin-left: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 h3{
@@ -40,20 +40,20 @@ h3{
 }
 
 img{
-  max-height: 130px;
+  max-height: 160px;
   padding: 5px;
 }
 
 .cuteSection{
-  position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; 
+  justify-content: space-between;
+  margin-bottom: 5px;
 }
 
 .cats{
-  position: absolute;
-  height: 200px;
+  position: relative;
+  height: 250px;
   background: #eaeaee;
   margin: 10px 10px 10px 10px;
   border: dashed 2px gray;
@@ -61,22 +61,91 @@ img{
 }
 
 .dogs{
-    position: absolute;
-    height: 200px;
+    position: relative;
+    height: 250px;
     background: #eaeaee;
     margin: 10px 10px 10px 10px;
     border: dashed 2px gray;
     padding: 20px;
-    left: 550px;
+
 }
 
 .alpaca{
-    position: absolute;
-    height: 200px;
+    position: relative;
+    height: 250px;
     background: #eaeaee;
     margin: 10px 10px 10px 10px;
     border: dashed 2px gray;
     padding: 20px;
-    left: 1100px;
 }
 
+.bigSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+}
+
+.elephant{
+  position: relative;
+  height: 250px;
+  background: #eaeaee;
+  margin: 10px 10px 10px 10px;
+  border: dashed 2px gray;
+  padding: 20px;
+}
+
+.giraffe{
+  position: relative;
+  height: 250px;
+  background: #eaeaee;
+  margin: 10px 10px 10px 10px;
+  border: dashed 2px gray;
+  padding: 20px;
+}
+
+.whale{
+  position: relative;
+  height: 250px;
+  background: #eaeaee;
+  margin: 10px 10px 10px 10px;
+  border: dashed 2px gray;
+  padding: 20px;
+}
+
+.whale1{
+  width: 175px;
+}
+
+.smolSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.firefly{
+  position: relative;
+  height: 250px;
+  background: #eaeaee;
+  margin: 10px 10px 10px 10px;
+  border: dashed 2px gray;
+  padding: 20px;
+}
+
+.ladybug{
+  position: relative;
+  height: 250px;
+  background: #eaeaee;
+  margin: 10px 10px 10px 10px;
+  border: dashed 2px gray;
+  padding: 20px;
+}
+
+.butterfly{
+  position: relative;
+  height: 250px;
+  background: #eaeaee;
+  margin: 10px 10px 10px 10px;
+  border: dashed 2px gray;
+  padding: 20px;
+}
